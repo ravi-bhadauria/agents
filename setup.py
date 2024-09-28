@@ -187,7 +187,7 @@ def get_required_packages():
       # Using an older version to avoid this bug
       # https://github.com/tensorflow/tensorflow/issues/62217
       # while using tf 2.15.0
-      'typing-extensions == 4.5.0',
+      'typing-extensions >= 4.5.0',
       # Used by gym >= 0.22.0. Only installed as a dependency when gym[all] is
       # installed or if gym[*] (where * is an environment which lists pygame as
       # a dependency).
